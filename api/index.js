@@ -20,7 +20,7 @@ mongoose
     });
 
 app.use(cors({
-    origin: process.env.FRONTEND_URL,
+    origin: ["https://luxe-shop.onrender.com", "http://localhost:5173"],
     credentials: true
 }));
 app.use(express.json());
